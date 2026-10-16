@@ -64,7 +64,7 @@ for raw_line in log_text.splitlines():
         continue
 
     if line == "END":
-        print("END marker reached, stopping")
+        print("END marker reached, stopping.")
         break
 
     lines_scanned += 1
