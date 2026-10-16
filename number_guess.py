@@ -57,7 +57,7 @@ while True:
         break
 
     if not answer.isdigit():
-        print("Invalid inout: please type a whole number.")
+        print("Invalid input: please type a whole number.")
         continue
 
     guess = int(answer)
